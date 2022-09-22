@@ -1,0 +1,14 @@
+.fondo { 
+    height: 100%;
+    width: 45%;
+}
+.fondo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media (max-width:640px){
+    .fondo {
+        display: none;
+    }
+}

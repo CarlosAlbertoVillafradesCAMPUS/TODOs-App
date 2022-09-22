@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(68,0,87,1) 28%);
+  color: rgb(0,0,0);
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+#root {
+  margin: 0;
+  position: relative;
+  min-height: 100vh;
+}

@@ -1,0 +1,36 @@
+
+.container-empty{
+    margin-top: 30px;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    }
+    .img-Empty{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        opacity: 0.8;
+    }
+    .img-Empty img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+    .containerEmpty-text{
+        display: flex;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .containerEmpty-text p{
+        font-size: 16px;
+        color: #FAFAFA;
+        align-self: center;
+        margin: 0;
+    }
+      @media (max-width:640px){
+        .container-todo{
+            width: auto;
+        }
+    }

@@ -1,0 +1,73 @@
+
+.container{
+    margin-top: 20px;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    opacity: 0.9;
+    }
+    .text-prin{
+        text-align: center;
+        color: #FAFAFA;
+        font-size: 18px;
+        margin: 0px 0px 10px 0px
+    
+    }
+    .img-empty{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .img-empty img{
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    .container-text{
+        display: flex;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .container-text p{
+        margin: 0;
+    }
+    .container-text p:nth-child(2){
+        font-size: 16px;
+        color: #FAFAFA;
+        align-self: center;
+    }
+    .container-text .vamos{
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 18px;
+        font-weight: 100;
+        color: #9e02c9 ;
+        text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.719);
+        margin-right: 5px;
+    }
+    .ButtonEmpty {
+        background-color: #9e02c9;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 30px;
+        font-weight: bold;
+        color: #FAFAFA;
+        height: 40px;
+        width: 40px;
+        z-index: 1;
+      }
+      @media (max-width:640px){
+        .container-todo{
+            width: auto;
+        }
+        .container-text .vamos{
+            font-size: 17px;
+            margin-right: 3px;
+        }
+        .container-text p:nth-child(2){
+            font-size: 14px;
+        }
+    }
